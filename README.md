@@ -2,7 +2,7 @@
 
 ## Sample Project
 
-Find here a quick starter project which shows a full React native:
+Find here a quick starter project which shows a full React native app: 
 
 https://github.com/losrobbos/react-native-auth
 
