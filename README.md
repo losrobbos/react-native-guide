@@ -8,6 +8,14 @@ https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzV
 
 It will help you to get your basic setup & tools for developing + understand the basic concepts before starting your app development journey.
 
+Important key concepts to get into before start coding:
+- Expo vs React Native
+- Emulator (Android vs iOS)
+- The Expo App
+- Screen Components
+- Stack Navigator
+- The Stylehsheet class
+
 ## Sample Project
 
 Find here a quick starter project which shows a full React native app: 
