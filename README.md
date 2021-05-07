@@ -9,7 +9,7 @@ https://github.com/losrobbos/react-native-auth
 The sample shows you:
 
 - Screen Components (= like "Page components" in normal React apps)
-- Styling using the StyleSheet component (= Native Apps do not know CSS)
+- Styling using the StyleSheet class (= Native Apps do not know CSS)
 - Central state management (Context)
 - Authentication with JWT
 - Stack navigator
