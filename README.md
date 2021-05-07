@@ -1,5 +1,13 @@
 # Guide & Resources
 
+## Getting into React native
+
+In order to get the big picture of React native, I recommend this very clear free video series from the Net Ninja with very short but straight-to-the-point tutorials:
+
+https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ
+
+It will help you to get your basic setup & tools for developing + understand the basic concepts before starting your app development journey.
+
 ## Sample Project
 
 Find here a quick starter project which shows a full React native app: 
