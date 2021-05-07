@@ -36,9 +36,15 @@ But your native apps do not run in any browser. Therefore we cannot make authent
 
 So where do you store the f***** tokens in the frontend?
 
-Well, because Apps don't have page refreshes, we never lose our state (just in case we really close the f*** app). 
+Well, first of all, why do we actually needed to store tokens in the browser (e.g. in cookies or localstorage)?
 
-So we could simply put the token in state and as long as the app stays open (and the token is still valid / not expired), we will stay logged in.
+Mainly to preserve the token info on page refreshes. Because page refreshes clear our app state every time. And if we would store tokens in state only, we would lose the information and would need to login again after each page refresh.
+
+Now, some good news... Apps don't have page refreshes. We never lose our state (just in case we really close the app). 
+
+So a simple solution would be to simply put the token in state. And that's it.
+
+As long as the app stays open (and the token is still valid / not expired), we will stay logged in.
 
 But if we do not use cookies for exchanging the token anymore - how do we then receive the token from the API - and the other way round - how do we send our token to the API on each request?
 
@@ -60,6 +66,14 @@ https://github.com/losrobbos/todo-backend/blob/master/middleware/authentication/
 Frontend -> access protected routes - put token in request header:
 https://github.com/losrobbos/react-native-auth/blob/master/contexts/apiCalls.js
 
+
+### Keep user logged in even after app closing
+
+If you wanna keep a user logged in, even after closing the app, you need to store the token somewhere on the phone.
+
+Therefore you can use a similar concept to localStorage from browser, the "asyncStorage":
+
+https://docs.expo.io/versions/latest/sdk/async-storage/
 
 
 ## Navigation concepts
