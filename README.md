@@ -10,7 +10,7 @@ It will help you to get your basic setup & tools for developing + understand the
 
 Important key concepts to get into before start coding:
 - Expo vs React Native
-- Emulator (Android vs iOS)
+- Smartphone Emulator (Android & iOS)
 - The Expo App
 - Screen Components
 - Stack Navigator
