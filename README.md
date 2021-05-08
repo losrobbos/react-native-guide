@@ -68,9 +68,9 @@ But if we do not use cookies for exchanging the token anymore - how do we then r
 
 There is another very common technique for exchanging tokens in the web using "HTTP headers". It is actually quite straight-forward.
 
-Here some resources where you can check how to do Auth between Frontend & API using headers:
+Following some resources where you can check how to do Auth between Frontend & API using headers.
 
-Authentication without cookies from React native to API:
+### Authentication without cookies from React native to API
 
 Backend Login => function loginUser => send token directly in BODY (no cookie attaching):
 https://github.com/losrobbos/todo-backend/blob/master/controllers/usersController.js
@@ -115,6 +115,8 @@ https://www.youtube.com/watch?v=nQVCkqvU1uE
 ## Connect to API on localhost from the emulator
 
 If you want to connect to an API running on localhost, doing a fetch or axios call to "localhost:5000" will not work.
+
 Actually once your app runs on an emulator (or the phone), localhost will refer to this decive. And not to your PC anymore!
+
 See here which address to use for connecting both:
 https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android-emulator
