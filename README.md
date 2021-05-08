@@ -44,11 +44,39 @@ The main differences:
 - Browser concepts like Cookies or LocalStorage do not exist. So we need to store data differently on a phone compared to a browser app
 
 
-## Differences in Authentication
+## Navigation concepts
+
+Navigation in React native has a bit more variants than traditional "react-router-dom" routing..
+
+Instead of the famous React-Router-Dom library typically the library "React Navigation" is applied:
+
+https://reactnavigation.org/docs/getting-started/
+
+React Navigation concepts - Intro:
+
+https://www.youtube.com/watch?v=OmQCU-3KPms&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ&index=19
+
+React Navigation concepts show case + Authentication + Protecting routes:
+
+https://www.youtube.com/watch?v=nQVCkqvU1uE
+
+
+
+## Connect to API on localhost from the emulator
+
+If you want to connect to an API running on localhost, doing a fetch or axios call to "localhost:5000" will not work.
+
+Actually once your app runs on an emulator (or the phone), localhost will refer to this decive. And not to your PC anymore!
+
+See here which address to use for connecting both:
+https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android-emulator
+
+
+## Authentication between Native App & API
 
 In Native Apps something like cookies does not exist. Neither localStorage. 
 
-Cookies and localstorage are Browser concepts.
+Cookies and localStorage are Browser concepts.
 
 But your native apps do not run in any browser. Therefore we cannot make authentication with cookies anymore. 
 
@@ -93,30 +121,3 @@ Therefore you can use a similar concept to localStorage from browser, the "async
 
 https://docs.expo.io/versions/latest/sdk/async-storage/
 
-
-## Navigation concepts
-
-Navigation in React native has a bit more variants than traditional "react-router-dom" routing..
-
-Instead of the famous React-Router-Dom library typically the library "React Navigation" is applied:
-
-https://reactnavigation.org/docs/getting-started/
-
-React Navigation concepts - Intro:
-
-https://www.youtube.com/watch?v=OmQCU-3KPms&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ&index=19
-
-React Navigation concepts show case + Authentication + Protecting routes:
-
-https://www.youtube.com/watch?v=nQVCkqvU1uE
-
-
-
-## Connect to API on localhost from the emulator
-
-If you want to connect to an API running on localhost, doing a fetch or axios call to "localhost:5000" will not work.
-
-Actually once your app runs on an emulator (or the phone), localhost will refer to this decive. And not to your PC anymore!
-
-See here which address to use for connecting both:
-https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android-emulator
