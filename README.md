@@ -72,20 +72,24 @@ Here some resources where you can check how to do Auth between Frontend & API us
 
 Authentication without cookies from React native to API:
 
-Backend Login => function loginUser => send token directly in BODY (no cookie attaching)
+Backend Login => function loginUser => send token directly in BODY (no cookie attaching):
+
 https://github.com/losrobbos/todo-backend/blob/master/controllers/usersController.js
 
 Frontend - Login => store received token & user in state:
+
 https://github.com/losrobbos/react-native-auth/blob/master/screens/Login.js
 
 Backend Middleware => look for token not in cookies, check it in headers:
+
 https://github.com/losrobbos/todo-backend/blob/master/middleware/authentication/authenticator.js
 
 Frontend -> access protected routes - put token in request header:
+
 https://github.com/losrobbos/react-native-auth/blob/master/contexts/apiCalls.js
 
 
-### Keep user logged in even after app closing
+### Keep user logged in after app closing & reopening
 
 If you wanna keep a user logged in, even after closing the app, you need to store the token somewhere on the phone.
 
@@ -99,12 +103,15 @@ https://docs.expo.io/versions/latest/sdk/async-storage/
 Navigation in React native has a bit more variants than traditional "react-router-dom" routing..
 
 Instead of the famous React-Router-Dom library typically the library "React Navigation" is applied:
+
 https://reactnavigation.org/docs/getting-started/
 
 React Navigation concepts - Intro:
+
 https://www.youtube.com/watch?v=OmQCU-3KPms&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ&index=19
 
 React Navigation concepts show case + Authentication + Protecting routes:
+
 https://www.youtube.com/watch?v=nQVCkqvU1uE
 
 
