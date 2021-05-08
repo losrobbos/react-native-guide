@@ -73,19 +73,15 @@ Here some resources where you can check how to do Auth between Frontend & API us
 Authentication without cookies from React native to API:
 
 Backend Login => function loginUser => send token directly in BODY (no cookie attaching):
-
 https://github.com/losrobbos/todo-backend/blob/master/controllers/usersController.js
 
 Frontend - Login => store received token & user in state:
-
 https://github.com/losrobbos/react-native-auth/blob/master/screens/Login.js
 
 Backend Middleware => look for token not in cookies, check it in headers:
-
 https://github.com/losrobbos/todo-backend/blob/master/middleware/authentication/authenticator.js
 
 Frontend -> access protected routes - put token in request header:
-
 https://github.com/losrobbos/react-native-auth/blob/master/contexts/apiCalls.js
 
 
