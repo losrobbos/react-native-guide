@@ -38,7 +38,7 @@ The main differences:
 - We do not have HTML in apps. Therefore we have other default components for layouting like `<View>` or `<Text>`
 - Apps do not know the concept of CSS. So we also "emulate" or fake the concept of CSS using the helper class `StyleSheet`
 - Page components are typically called "Screens"
-- Apps are typically not tested in the browser anymore (just for basic functionality checking)
+- Apps are typically not tested in the browser anymore (just for basic functionality checking). Instead we use the Expo App or Smartphone Emulators.
 - Browser concepts like Cookies or LocalStorage do not exist
 
 
