@@ -66,13 +66,13 @@ As long as the app stays open (and the token is still valid / not expired), we w
 
 But if we do not use cookies for exchanging the token anymore - how do we then receive the token from the API - and the other way round - how do we send our token to the API on each request?
 
-There is another very common technique for exchanging tokens in the web using HTTP "headers". It is actually quite straight-forward.
+There is another very common technique for exchanging tokens in the web using "HTTP headers". It is actually quite straight-forward.
 
-Here some resources where you can check how to do Auth between Frontend & backend using headers:
+Here some resources where you can check how to do Auth between Frontend & API using headers:
 
 Authentication without cookies from React native to API:
 
-Backend Login => function loginUser => send token directly in body (not cookie attaching)
+Backend Login => function loginUser => send token directly in BODY (no cookie attaching)
 https://github.com/losrobbos/todo-backend/blob/master/controllers/usersController.js
 
 Frontend - Login => store received token & user in state:
