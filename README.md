@@ -21,6 +21,12 @@ Important key concepts to get into before start coding:
 - Stack Navigator
 - The Stylehsheet class
 
+## Experimenting online with "Snack"
+
+"Expo Snack" is a webpage similar to code sandbox, where you can experiment with React Native snippets & see the result immediately live: https://snack.expo.io/
+
+Expo Snack is very useful to get familiar with basic React native components, styling, state management & navigation, without having to setup a full project first.
+
 ## Sample Project
 
 Find here a quick starter project which shows a full React native app: 
