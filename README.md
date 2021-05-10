@@ -109,7 +109,7 @@ There is another very common technique for exchanging tokens in the web using "H
 
 Following some resources where you can check how to do Auth between Frontend & API using headers.
 
-### Authentication without cookies from React native to API
+### Authentication using headers
 
 Backend Login => function loginUser => send token directly in BODY (no cookie attaching):
 https://github.com/losrobbos/todo-backend/blob/master/controllers/usersController.js
