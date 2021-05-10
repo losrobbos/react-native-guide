@@ -78,6 +78,10 @@ Actually once your app runs on an emulator (or the phone), localhost will refer 
 See here which address to use for connecting both:
 https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android-emulator
 
+So in summary: 
+- address for usage in Android emulator: http://10.0.2.2:5000
+- address for usage in iOS emulator: http://0.0.0.0:5000
+
 
 ## Authentication between Native App & API
 
