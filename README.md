@@ -2,11 +2,14 @@
 
 ## Getting into React native
 
+Official getting started guide with overview of React native concepts:
+https://reactnative.dev/docs/getting-started
+
 In order to get the big picture of React native, I recommend this very clear, free video series from the Net Ninja:
 
 https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ
 
-The series has very short, but straight-to-the-point tutorials for the fundamental React Native concepts.
+The series consists short & straight-to-the-point tutorials demonstrating each fundamental React Native concept.
 
 It will help you to get your initial setup, all necessary tools for developing and understanding the basic concepts before starting your app development journey.
 
