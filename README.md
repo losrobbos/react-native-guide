@@ -52,17 +52,15 @@ The main differences:
 Navigation in React native has a bit more variants than traditional "react-router-dom" routing..
 
 Instead of the famous React-Router-Dom library typically the library "React Navigation" is applied:
-
 https://reactnavigation.org/docs/getting-started/
 
-React Navigation concepts - Intro:
-
+React Navigation concepts - Intro: 
 https://www.youtube.com/watch?v=OmQCU-3KPms&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ&index=19
 
-React Navigation concepts show case + Authentication + Protecting routes:
-
+React Navigation concepts show case + Authentication + Protecting routes: 
 https://www.youtube.com/watch?v=nQVCkqvU1uE
 
+React Navigation with Tabs - Deep Dive Tutorial: https://www.youtube.com/watch?v=Hln37dE19bs
 
 
 ## Connect to API on localhost from the emulator
