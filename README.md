@@ -86,8 +86,7 @@ See here which address to use for connecting both:
 https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android-emulator
 
 So in summary: 
-- address for usage in Android emulator: http://10.0.2.2:5000
-- address for usage in iOS emulator: http://0.0.0.0:5000
+- address for usage in Android or iOS emulator: try addresses http://10.0.2.2:5000 or http://0.0.0.0:5000 for connecting, instead of http://localhost:5000
 - address for usage in Expo app - retrieve dynamically: https://stackoverflow.com/questions/47417766/calling-locally-hosted-server-from-expo-app
 
 ## Authentication between Native App & API
