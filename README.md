@@ -9,7 +9,7 @@ In order to get the big picture of React native, I recommend this very clear, fr
 
 https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ
 
-The series consists short & straight-to-the-point tutorials demonstrating each fundamental React Native concept.
+The series consists of short & straight-to-the-point mini-tutorials, demonstrating each fundamental React Native concept.
 
 It will help you to get your initial setup, all necessary tools for developing and understanding the basic concepts before starting your app development journey.
 
