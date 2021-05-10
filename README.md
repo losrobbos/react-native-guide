@@ -63,7 +63,14 @@ https://reactnavigation.org/docs/getting-started/
 React Navigation concepts - Intro: 
 https://www.youtube.com/watch?v=OmQCU-3KPms&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ&index=19
 
-React Navigation concepts show case + Authentication + Protecting routes: 
+### React Navigation V5
+
+Following walkthroughs for the React Navigation V5 concepts
+
+Naviation with the Stack Navigator:
+https://www.youtube.com/watch?v=9K7JCQbOHVA
+
+React Navigation - all navigation concepts show case - with Authentication / Protecting screens:
 https://www.youtube.com/watch?v=nQVCkqvU1uE
 
 React Navigation with Tabs - Deep Dive Tutorial: https://www.youtube.com/watch?v=Hln37dE19bs
