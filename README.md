@@ -70,7 +70,7 @@ Following walkthroughs for the React Navigation V5 concepts
 Navigation with the Stack Navigator:
 https://www.youtube.com/watch?v=9K7JCQbOHVA
 
-All navigation concepts - show case - with Authentication / Protecting screens:
+All navigation concepts (Stack, Drawer, Tabs) - show case - with Authentication / Protecting screens:
 https://www.youtube.com/watch?v=nQVCkqvU1uE
 
 Navigation with Tabs - Deep Dive Tutorial: https://www.youtube.com/watch?v=Hln37dE19bs
