@@ -67,13 +67,13 @@ https://www.youtube.com/watch?v=OmQCU-3KPms&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzV
 
 Following walkthroughs for the React Navigation V5 concepts
 
-Naviation with the Stack Navigator:
+Navigation with the Stack Navigator:
 https://www.youtube.com/watch?v=9K7JCQbOHVA
 
-React Navigation - all navigation concepts show case - with Authentication / Protecting screens:
+All navigation concepts - show case - with Authentication / Protecting screens:
 https://www.youtube.com/watch?v=nQVCkqvU1uE
 
-React Navigation with Tabs - Deep Dive Tutorial: https://www.youtube.com/watch?v=Hln37dE19bs
+Navigation with Tabs - Deep Dive Tutorial: https://www.youtube.com/watch?v=Hln37dE19bs
 
 
 ## Connect to API on localhost from the emulator
