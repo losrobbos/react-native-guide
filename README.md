@@ -93,7 +93,7 @@ Now we have a problem. Typically the IP address of our laptop changes frequently
 
 Is there a way to get that IP address of the laptop in our App dynamically? YES.
 
-When we run our app during development, it will always be hosted in the "Expo App", no matter if we run it directly on our phone or in an emulator.
+When we run our app on a "phone" during development, it will always be hosted in the "Expo App", no matter if we run it directly on our phone or in an emulator.
 
 And fortunately the Expo App knows from which PC an App was uploaded & started.
 
