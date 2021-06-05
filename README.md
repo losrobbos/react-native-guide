@@ -66,7 +66,9 @@ https://www.youtube.com/watch?v=OmQCU-3KPms&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzV
 
 ### React Navigation V5
 
-Following walkthroughs for the React Navigation V5 concepts
+React Navigation had a lot of major changes, so older web articles or YouTube playlists have often outdated syntax. 
+
+Find following walkthroughs for the React Navigation concepts using the most recent majr version V5 (as of time of writing, early 2021). 
 
 Navigation with the Stack Navigator:
 https://www.youtube.com/watch?v=9K7JCQbOHVA
