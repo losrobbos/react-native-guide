@@ -85,12 +85,25 @@ If you want to connect to an API running on localhost, doing a fetch or axios ca
 
 Actually once your app runs on an emulator (or the phone), localhost will refer to this decive. And not to your PC anymore!
 
-See here which address to use for connecting both:
+Therefore you have to state the IP address of your laptop in your API url, so that your phone can connect to that.
+
+Example: http://192.16.178.22/
+
+Now we have a problem. Typically the IP address of our laptop changes frequently, because it is dynamically assigned by our internet provider.
+
+Is there a way to pass that IP address to our App dynamically? YES.
+
+When we run our app during development, it will always be hosted in the "Expo App", no matter if we run it directly on our phone or in an emulator.
+
+And fortunately the Expo App knows from which PC an App was uploaded & started.
+
+See here how you can retrieve the URL of your API - running on your PC - dynamically from code:
+https://stackoverflow.com/questions/47417766/calling-locally-hosted-server-from-expo-app
+
+Alternative - There are also special IP addresses for usage emulators / simulators to access the host machine (your laptop), but that does not seem to work reliably:
 https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android-emulator
 
-So in summary: 
-- address for usage in Android or iOS emulator: try addresses http://10.0.2.2:5000 or http://0.0.0.0:5000 for connecting, instead of http://localhost:5000
-- address for usage in Expo app - retrieve dynamically: https://stackoverflow.com/questions/47417766/calling-locally-hosted-server-from-expo-app
+So it is prefered to always use the DYNAMIC IP lookup.
 
 ## Authentication between Native App & API
 
