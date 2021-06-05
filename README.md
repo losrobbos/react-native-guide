@@ -79,11 +79,11 @@ https://www.youtube.com/watch?v=nQVCkqvU1uE
 Navigation with Tabs - Deep Dive Tutorial: https://www.youtube.com/watch?v=Hln37dE19bs
 
 
-## Connect to API on localhost from the emulator
+## Connect to API running on localhost
 
-If you want to connect to an API running on localhost, doing a fetch or axios call to "localhost:5000" will not work.
+If you want to connect to an API running on "localhost" on your PC, doing a fetch or axios call to "localhost:5000" will not work, neither from your smartphone, nor from an emulator.
 
-Actually once your app runs on an emulator (or the phone), localhost will refer to this decive. And not to your PC anymore!
+Actually once your app runs on an emulator (or the phone), localhost will refer to that decive. And not to your PC anymore! So when you call "localhost", the phone will look for an API running on the phone itself. And it will not find it.
 
 Therefore you have to state the IP address of your laptop in your API url, so that your phone can connect to that.
 
