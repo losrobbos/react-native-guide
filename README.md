@@ -91,7 +91,7 @@ Example: http://192.16.178.22/
 
 Now we have a problem. Typically the IP address of our laptop changes frequently, because it is dynamically assigned by our internet provider.
 
-Is there a way to pass that IP address to our App dynamically? YES.
+Is there a way to get that IP address of the laptop in our App dynamically? YES.
 
 When we run our app during development, it will always be hosted in the "Expo App", no matter if we run it directly on our phone or in an emulator.
 
