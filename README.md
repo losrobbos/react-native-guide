@@ -87,7 +87,7 @@ Actually once your app runs on an emulator (or the phone), localhost will refer 
 
 Therefore you have to state the IP address of your laptop + the port where the API is running, so that your phone can connect to that.
 
-Example: fetch( 'http://192.16.178.22:5000' )
+Example: fetch( 'http://192.16.178.22:5000/todos' )
 
 Now we have a problem. Typically the IP address of our laptop changes frequently, because it is dynamically assigned by our internet provider.
 
