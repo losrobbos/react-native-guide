@@ -100,10 +100,10 @@ And fortunately the Expo App knows from which PC an App was uploaded & started.
 See here how you can retrieve the URL of your API - running on your PC - dynamically from code:
 https://stackoverflow.com/questions/47417766/calling-locally-hosted-server-from-expo-app
 
-Alternative - There are also special IP addresses for usage emulators / simulators to access the host machine (your laptop), but that does not seem to work reliably:
+Alternative - There are also special IP addresses for usage in emulators to access the host machine (your laptop). But that does not seem to work reliably:
 https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android-emulator
 
-So it is prefered to always use the DYNAMIC IP lookup.
+So it is prefered to always use the DYNAMIC IP lookup of your laptop by code.
 
 ## Authentication between Native App & API
 
