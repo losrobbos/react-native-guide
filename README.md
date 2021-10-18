@@ -19,7 +19,7 @@ Important key concepts to get into before start coding:
 - The Expo App
 - Screen Components
 - Stack Navigator
-- The Stylehsheet class
+- The Stylesheet class
 
 ## Experimenting online with "Snack"
 
