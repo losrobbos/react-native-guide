@@ -105,6 +105,15 @@ https://stackoverflow.com/questions/6760585/accessing-localhostport-from-android
 
 So it is prefered to always use the DYNAMIC IP lookup of your laptop by code.
 
+### The simpler way of connecting to API
+
+You can simplify the whole API integration by simply deploying the API to the web early and not deal with an API on your local machine.
+
+This way there is a reliable API url out there, which is reachable from anywhere, from your PC and you emulator.
+
+So do yourself a favor, and deploy your API early. It will make your frontend backend integration life much smoother, with as little pain as necessary :)
+
+
 ## Authentication between Native App & API
 
 In Native Apps something like cookies does not exist. Neither localStorage. 
