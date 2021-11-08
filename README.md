@@ -27,6 +27,9 @@ Important key concepts to get into before start coding:
 
 Expo Snack is very useful to get familiar with basic React native components, styling, state management & navigation, without having to setup a full project first.
 
+Limitations:
+At the time of writing (Nov 2021) it seems, Expo snack does not allow making fetch calls. So in case you wanna try out how to connect to an API, you need to create an app locally on your machine
+
 ## Sample Project
 
 Find here a quick starter project which shows a full React native app: 
