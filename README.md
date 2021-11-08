@@ -127,7 +127,7 @@ As long as the app stays open (and the token is still valid / not expired), we w
 
 But if we do not use cookies for exchanging the token anymore - how do we then receive the token from the API - and the other way round - how do we send our token to the API on each request?
 
-There is another very common technique for exchanging tokens in the web using "HTTP headers". It is actually quite straight-forward.
+There is another very common technique for exchanging tokens in the web using "HTTP headers" instead of cookies. It is actually quite straight-forward.
 
 Following some resources where you can check how to do Auth between Frontend & API using headers.
 
