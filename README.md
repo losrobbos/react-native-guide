@@ -47,6 +47,7 @@ The sample shows you:
 You probably can see in the sample:
 - a lot of React concepts still work the very same in a React native application
 - also state management is practically the same (both for Context & Redux)
+- also fetching data from APis works exactly the same, using fetch. But also any other lib like axios will work.
 
 The main differences:
 - Page components are typically called "Screens"
