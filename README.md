@@ -143,8 +143,7 @@ Backend Middleware => look for token not in cookies, check it in headers:
 https://github.com/losrobbos/todo-backend/blob/master/middleware/authentication/authenticator.js
 
 Frontend -> access protected routes - put token in request header:
-https://github.com/losrobbos/react-native-auth/blob/master/contexts/apiCalls.js
-
+https://github.com/losrobbos/react-native-auth/blob/master/helpers/apiCalls.js
 
 ### Keep user logged in after app closing & reopening
 
