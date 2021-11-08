@@ -52,6 +52,7 @@ The main differences:
 - Even though we can emulate CSS properties with the Stylesheet class, you need to note that there is no INHERITANCE of CSS styles to children! 
 - Apps are typically not tested in the browser anymore (just for basic functionality checking). Instead we use the Expo App to run an App directly on our phone or Smartphone Emulators
 - Browser concepts like Cookies or LocalStorage do not exist. So we need to store data differently on a phone compared to a browser app
+<br /><br />
 
 
 ## Navigation concepts
@@ -77,7 +78,7 @@ All navigation concepts (Stack, Drawer, Tabs) - show case - with Authentication 
 https://www.youtube.com/watch?v=nQVCkqvU1uE
 
 Navigation with Tabs - Deep Dive Tutorial: https://www.youtube.com/watch?v=Hln37dE19bs
-
+<br /><br />
 
 ## Connect to API running on localhost
 
@@ -112,6 +113,7 @@ You can simplify the whole API integration by simply deploying the API to the we
 This way there is a reliable API url out there, which is reachable from anywhere, from your PC and you emulator.
 
 So do yourself a favor, and deploy your API early. It will make your frontend backend integration life much smoother, with as little pain as necessary :)
+<br /><br />
 
 
 ## Authentication between Native App & API
